@@ -1,0 +1,62 @@
+
+.login{
+    font-variant: small-caps;
+    width: 450px;
+    height: 70vh;
+    background-color: white;
+    border-radius:20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+   padding-right:100px;
+    margin: auto;
+    margin-top: 50px;
+}
+.sectionLogin{
+	height:100vh;
+	width:100vw;
+}
+.lo{
+    height:590px;
+}
+
+.container{
+    height: 100vh;
+}
+.intro{
+    background-color: black;
+    
+    font-variant: small-caps;
+    background-size: cover;
+    padding: 5px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link {
+    font-size: 20px;
+}
+.nav-link{
+    color: white;
+}
+.nav-item{
+    padding-right: 5px;
+}
+
+span{
+    color: whitesmoke;
+}
+form{
+    padding-left: 75px;
+}
+.mb-4{
+    color: green;
+}
+
+.but{
+    
+    margin-left: 40px;
+    margin-top: 10px;
+}

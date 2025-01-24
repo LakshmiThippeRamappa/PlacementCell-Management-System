@@ -1,0 +1,87 @@
+
+.container{
+    height: 100vh;
+}
+.intro{
+    background-color: black;
+    
+    font-variant: small-caps;
+    background-size: cover;
+    padding: 5px;
+}
+
+
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link {
+    font-size: 20px;
+}
+.nav-link{
+    color: white;
+}
+.nav-item{
+    padding-right: 5px;
+}
+
+span{
+    color:whitesmoke;
+}
+.image{
+    margin-left: 450px;
+
+}
+.hari{
+    margin-left: 10px;
+}
+.td{
+    text-align: center;
+}
+.middle {
+    background-color: black;
+    height: 55vh;
+    width: 98.5vw;
+    
+ 
+}
+
+.main {
+    padding: 15px;
+}
+
+.middle-section {
+    background-color:white;
+    margin: 20px;
+    
+}
+.favourite-place-card-image{
+    
+    height: 300px;
+    width: 300px;
+    padding-right: 10px;
+    margin-right: 150px;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+.td{
+    text-align: center;
+}
+.h2{
+    text-align: center;
+    font-variant: small-caps;
+}
+.table{
+    padding: 10px;
+    margin: 30px;
+}
+.sree{
+    background-color:skyblue;
+    text-align: center;
+    color: black;
+
+}
+.hari{
+    background-color:white;
+    text-align: center;
+    color: black;
+}

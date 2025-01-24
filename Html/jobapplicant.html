@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <title>Project Home</title>
+        <link rel="stylesheet" href="adminhome.css">
+        <style>
+            table, th, td {
+                   border:1px  solid black  ;
+                   border-collapse: collapse;
+                   background-color:;
+            }
+            
+      </style>
+    </head>
+    <body>
+
+        <div>
+            <div class="intro"> 
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" >PlacementCell <span>Management</span> System</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                          </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="adAbout.html">AboutUs</a>
+                          </li>
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="dashboard.html">DashboarD</a>
+                          </li>
+                          
+                          <li class="nav-item dropdown">
+	 <a class="nav-link dropdown-toggle" href="addcom.html" role="button" data-bs-toggle="dropdown">Administration</a>
+  		<ul class="dropdown-menu">
+   			 <li><a class="dropdown-item" href="addcom.html">ADD COMPANY</a></li>
+   			 <li><a class="dropdown-item" href="addjob.html">ADD JOBS</a></li>
+ 		 </ul>
+        </li>
+
+	<li class="nav-item dropdown">
+	 <a class="nav-link dropdown-toggle" href="jobreport.html" role="button" data-bs-toggle="dropdown">Reports</a>
+  		<ul class="dropdown-menu">
+   			 <li><a class="dropdown-item" href="adminhome.html ">COMPANY REPORTS</a></li>
+   			 <li><a class="dropdown-item" href="adcompany.html ">COMPANY LISTING </a></li>
+			<li><a class="dropdown-item" href="jobapplicant.html ">APPLICANT REPORT</a></li>
+			<li><a class="dropdown-item" href="jobreport.html">JOB REPORT</a></li>
+ 		 </ul>
+        </li>
+	
+	  <li class="nav-item">
+          <a class="nav-link" href="changepa.html">Change Password</a>
+        </li>
+
+	  <li class="nav-item">
+          <a class="nav-link" href="admin.php">Logout</a>
+        </li>
+                          
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </nav>
+    
+            </div>
+            <div class="">
+                <div class="company bg-danger">
+                    <h3>Applicant  Report</h3>
+                    <hr>
+                </div>  
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class=" a navbar-brand">Show 4 Entries</a>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                </nav>
+            </div>
+            <div class="table">
+                <table style="width: 100%">
+                    <tr>
+                        <th class="name bg-info">Id</th>
+                        <th class="name bg-info" >Image</th>
+                        <th class="name bg-info"> Name</th>
+                        <th class="name bg-info"> Number</th>
+                        <th class="name bg-info" >City</th>
+                        <th class="name bg-info" >Company</th>
+                        <th class="name bg-info">Job Applied For</th>
+                        <th class="name bg-info">Email</th>
+                        <th class="name bg-info">Action</th>
+                    </tr>
+                    <tr>
+                        <th class="name">1</th>
+                        <td><img src="bhuvana.jpg" class="img" /></td>
+                        <td  class="sree" >Bhuvana</td>
+                        <td  class="sree" >9515894045</td>
+                        <td  class="sree" >Bangloor</td>
+                        <td  class="sree" >Tcs</td>
+                        <td  class="sree" >Frontend Developer</td>
+                        <td  class="sree" >Bhuvana@gmail.com</td>
+                        <td  class="sree" ><a href="">Click Here</a></td>
+
+
+                    </tr>
+                    <tr>
+                        <th class="name">2</th>
+                        <td><img src="lakshmi.jpg" class="img" /> </td>
+                        <td  class="sree" >Lakshmi</td>
+                        <td  class="sree" >9398002303</td>
+                        <td  class="sree" >chennai</td>
+                        <td  class="sree" >Amazon</td>
+                        <td  class="sree" >Backend Developer</td>
+                        <td  class="sree" >Lakshmi@gmail.com</td>
+                        <td  class="sree" ><a href="">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <th class="name">3</th>
+                        <td> <img src="dinesh.jpg" class="img" /></td>
+                        <td  class="sree" >Dinesh Kumar</td>
+                        <td  class="sree" >9182038385</td>
+                        <td  class="sree" >Hyderabad</td>
+                        <td  class="sree" >Infosis</td>
+                        <td  class="sree" >Software Developer</td>
+                        <td  class="sree" >Dinesh@gmail.com</td>
+                        <td  class="sree" ><a href="">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <th class="name" >4</th>
+                        <td><img src="srihari.jpg" class="img" /> </td>
+                        <td  class="sree">SreeHari</td>
+                        <td  class="sree" >7569879616</td>
+                        <td  class="sree" >Hyderabad</td>
+                        <td  class="sree" >Deloitte</td>
+                        <td  class="sree" >Frontend Developer</td>
+                        <td  class="sree" >SreeHari@gmail.com</td>
+                        <td  class="sree" ><a href="">Click Here</a></td>
+                    </tr>
+                      
+                   
+                </table>
+                    
+            
+        </div>
+          

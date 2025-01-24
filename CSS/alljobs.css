@@ -1,0 +1,49 @@
+
+.container{
+    height: 100vh;
+    
+}
+.intro{
+    background-color: black;
+    
+    font-variant: small-caps;
+    background-size: cover;
+    padding: 5px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link {
+    font-size: 20px;
+}
+.nav-link{
+    color:white;
+}
+.nav-item{
+    padding-right: 5px;
+}
+
+span{
+ 
+    color:whitesmoke;
+}
+
+.a{
+    font-size: 20px;
+}
+.name{
+    text-align: center;
+	background-color:skyblue;
+	color:black;
+}
+.sree{
+    text-align: center;
+}
+.img{
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+}
+.table{
+    
+}

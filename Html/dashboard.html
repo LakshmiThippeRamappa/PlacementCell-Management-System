@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="nav.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-sm fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PlacementCell Management System</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+   
+	  <li class="nav-item">
+          <a class="nav-link" href="adAbout.html">AboutUs</a>
+        </li>
+	
+	 <li class="nav-item">
+          <a class="nav-link" href="dashboard.html">Dashboard</a>
+        </li>
+
+	<li class="nav-item dropdown">
+	 <a class="nav-link dropdown-toggle" href="addcom.html" role="button" data-bs-toggle="dropdown">Administration</a>
+  		<ul class="dropdown-menu">
+   			 <li><a class="dropdown-item" href="addcom.html">ADD COMPANY</a></li>
+   			 <li><a class="dropdown-item" href="addjob.html">ADD JOBS</a></li>
+ 		 </ul>
+        </li>
+
+	<li class="nav-item dropdown">
+	 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Reports</a>
+  		<ul class="dropdown-menu">
+   			 <li><a class="dropdown-item" href="adminhome.html ">COMPANY REPORTS</a></li>
+   			 <li><a class="dropdown-item" href="company.html ">COMPANY LISTING </a></li>
+			<li><a class="dropdown-item" href="jobapplicant.html ">APPLICANT REPORT</a></li>
+			<li><a class="dropdown-item" href="jobreport.html">JOB REPORT</a></li>
+ 		 </ul>
+        </li>
+	
+	  <li class="nav-item">
+          <a class="nav-link" href="changepa.html">Change Password</a>
+        </li>
+
+	  <li class="nav-item">
+          <a class="nav-link" href="admin.php">Logout</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid mt-5 pt-5">
+<h2>WELCOME TO PLACEMENT MANAGEMENT SYSTEM</h2>
+  <div class="d-grid gap-3">
+    <button type="button" class="btn btn-dark btn-block">Home</button>
+    <button type="button" class="btn btn-dark btn-block">About Us</button>
+    <button type="button" class="btn btn-dark btn-block">Add Company</button>
+      <button type="button" class="btn btn-dark btn-block">Company Report</button>
+	  <button type="button" class="btn btn-dark btn-block">Company Listing</button>
+	  <button type="button" class="btn btn-dark btn-block">Add Job</button>
+	  <button type="button" class="btn btn-dark btn-block">Job Report</button>
+	  <button type="button" class="btn btn-dark btn-block">Applicant Report</button>
+	  <button type="button" class="btn btn-dark btn-block">Change Password</button>
+	  <button type="button" class="btn btn-dark btn-block">Logout</button>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+
+.container{
+    height: 100vh;
+}
+.intro{
+    background-color: black;
+    
+    font-variant: small-caps;
+    background-size: cover;
+    padding: 5px;
+}
+
+
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link {
+    font-size: 20px;
+}
+.nav-link{
+    color: deeppink;
+}
+.nav-item{
+    padding-right: 5px;
+}
+
+span{
+    color:whitesmoke;
+}
+.content{
+    background-image: url('happy-professional-asian-female-manager-businesswoman-suit-showing-announcement-smiling-pointing-finger-left-product-project-banner-standing-white-background_1258-69508.webp');
+    height: 70vh;
+    width: 98.5vw;
+    background-size: cover;
+}
+.content span{
+    color: blue;
+}
+.h1{
+
+    padding: 30px;
+    font-variant: small-caps
+
+}
+.par{
+    
+    padding: 30px;
+    font-family:andika;
+    font-size: 18px;
+
+}
+.about{
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+.para{
+    margin: 10px;
+
+}.paragraph{
+    font-variant: andika;
+    font-size: 18px;
+    background-color: ;
+}
+.h4{
+    color:deeppink;
+}
+.list{
+    text-align: center;
+}
+.img{
+   
+    margin: 10px;
+}
+.img1{
+    margin: 10px;
+}
+.img2{
+    margin: 10px;
+}
+.img3{
+    margin: 10px;
+}
+.img4{
+    margin: 10px;
+}
+.img5{
+    margin: 10px;
+}
+.navbar-nav{
+    color: deeppink;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="nav.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+
+<nav class="navbar navbar-expand-sm fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PlacementCell Management System</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+  
+	  <li class="nav-item">
+          <a class="nav-link" href="adAbout.html">AboutUs</a>
+        </li>
+	
+	 <li class="nav-item">
+          <a class="nav-link" href="dashboard.html">Dashboard</a>
+        </li>
+
+	<li class="nav-item dropdown">
+	 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Administration</a>
+  		<ul class="dropdown-menu">
+   			 <li><a class="dropdown-item" href="addcom.html">ADD COMPANY</a></li>
+   			 <li><a class="dropdown-item" href="addjob.html">ADD JOBS</a></li>
+ 		 </ul>
+        </li>
+
+	<li class="nav-item dropdown">
+	 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Reports</a>
+  		<ul class="dropdown-menu">
+   			 <li><a class="dropdown-item" href="adminhome.html ">COMPANY REPORTS</a></li>
+   			 <li><a class="dropdown-item" href="adcompany.html ">COMPANY LISTING </a></li>
+			<li><a class="dropdown-item" href="jobapplicant.html ">APPLICANT REPORT</a></li>
+			<li><a class="dropdown-item" href="jobreport.html ">JOB REPORT</a></li>
+ 		 </ul>
+        </li>
+	
+	  <li class="nav-item">
+          <a class="nav-link" href="changepa.html ">Change Password</a>
+        </li>
+
+	  <li class="nav-item">
+          <a class="nav-link" href="admin.php">Logout</a>
+        </li>
+    </div>
+  </div>
+</nav>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ADD COMPANY</title>
+	<style>
+		label{
+			width:200px;
+			display: inline-block;
+			}
+		#form{
+			background: black;
+			color: white;
+			width:700px;
+                                 margin-top:10rem;
+                                 padding-top:10px;                             
+			}
+			
+	</style>
+</head>
+<body>
+           <center>
+	<div id="form">
+           <h2><center>CHANGE PASSWORD</center></h2>
+	<form action="" method="post">
+		<fieldset>
+		<legend>CHANGE YOUR ACCOUNT PASSWORD:</legend>
+		<label for="newpa">New Password:</label>
+		<input type="text" id="newepa" name="newpa" value=" "><br> <br>
+		<label for="cpassword">Confirm Password:</label>
+		<input type="cpassword" id="mail" name="cpassword" value=" "><br> <br>
+                      
+                      </fieldset><br>
+                      <center>
+		<input type="submit" value="change password">
+                      <input type="reset" value="Reset">	
+		</center>		<br> <br>
+	</form>
+	</div>
+           </center>
+</body>
+</html>
